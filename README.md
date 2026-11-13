@@ -1,31 +1,36 @@
-## To-Do List
-A lightweight to-do list built with vanilla HTML, CSS, and JavaScript. Tasks are saved in your browser with `localStorage`, so they remain available after reloading the page.
+## My Tasks
+A simple to-do list app made with HTML, CSS, and JavaScript. Add tasks, track what’s done, and keep your list saved in your browser.
+
+---
 
 ### Features
+- Add and delete tasks
+- Mark tasks as complete
+- Filter tasks by All, Active, or Done
+- Clear completed tasks
+- Save tasks in browser storage
 
-- Add tasks (up to 120 characters) and submit with the button or Enter.
-- Mark tasks as complete or active.
-- Filter the list by all, active, or completed tasks.
-- Delete individual tasks or clear all completed tasks.
-- See how many tasks remain.
-- Keep tasks between visits in the same browser.
+---
 
-### Run locally
+### Getting started
+1. Download or clone this project.
+2. Open `index.html` in your web browser.
+3. Add a task to get started.
 
-No dependencies or build step are required. Open `index.html` in a browser, or serve the project directory locally. For example, with Python installed:
+---
 
-```bash
-python -m http.server 8000
-```
+### Files
+- `index.html` — app structure
+- `style.css` — app styles
+- `app.js` — app functionality
 
-Then visit [http://localhost:8000](http://localhost:8000).
+---
 
-## Project files
+### Note
+Tasks are saved in the current browser. Clearing browser data will remove them.
 
-- `index.html` — page structure and controls.
-- `style.css` — layout and visual styling.
-- `app.js` — task behavior, rendering, and browser storage.
+---
 
-## Storage
+### Author 
 
-Tasks are stored in the browser's local storage under the `tasks` key. They are not synced to other browsers or devices. Clearing the browser's site data will remove saved tasks.
+#### Keerthana S
